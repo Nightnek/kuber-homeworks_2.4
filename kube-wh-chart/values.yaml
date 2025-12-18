@@ -1,0 +1,8 @@
+service:
+  name: front-ing-svc
+labels:
+  app: web-app
+replicas: 1
+image:
+  name: wbitt/network-multitool
+  tag: latest
